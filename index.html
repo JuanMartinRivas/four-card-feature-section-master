@@ -5,12 +5,51 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend Mentor | Four card feature section</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./app/scss/style.scss" />
   <script type="module" src="./app/js/app.js"></script>
 </head>
 
 <body>
-  
+  <header>
+    <div class="container">
+      <h2 class="header-title">Reliable, efficient delivery
+        <span class="thick">Powered by Technology</span>
+      </h2>
+      <p class="header-text">Our Artificial Intelligence powered tools use millions of project data points
+        to ensure that your project is successful</p>
+    </div>
+  </header>
+  <main>
+    <div class="container row">
+      <section class="column-1">
+        <div class="card" id="supervisor">
+          <h3 class="card-title">Supervisor</h3>
+          <p class="card-text">Monitors activity to identify project roadblocks</p>
+          <img src="./images/icon-supervisor.svg" alt="Icon supervisor" class="card-image">
+        </div>
+      </section>
+      <section class="column-2">
+        <div class="card" id="team-builder">
+          <h3 class="card-title">Team Builder</h3>
+          <p class="card-text">Scans our talent network to create the optimal team for your project</p>
+          <img src="./images/icon-team-builder.svg" alt="Icon team builder" class="card-image">
+        </div>
+        <div class="card" id="karma">
+          <h3 class="card-title">Karma</h3>
+          <p class="card-text">Regularly evaluates our talent to ensure quality</p>
+          <img src="./images/icon-karma.svg" alt="Icon karma" class="card-image">
+        </div>
+      </section>
+      <section class="column-3">
+        <div class="card" id="calculator">
+          <h3 class="card-title">Calculator</h3>
+          <p class="card-text">Uses data from past projects to provide better delivery estimates</p>
+          <img src="./images/icon-calculator.svg" alt="Icon calculator" class="card-image">
+        </div>
+      </section>
+    </div>
+  </main>
 
   <!-- 
   <footer>

@@ -7,9 +7,19 @@ body {
   background-color: $very-light-gray;
 }
 
+h1,
+h2,
+h3 {
+  color: $very-dark-blue;
+}
+
+p {
+  color: $grayish-blue;
+}
+
 .container {
   margin: 0 auto;
-  width: 90%;
+  width: 85%;
   max-width: 1200px;
 }
 

@@ -20,11 +20,19 @@ p {
 .container {
   margin: 0 auto;
   width: 85%;
-  max-width: 1200px;
+  max-width: 360px;
+
+  @media(min-width: 1000px) {
+    max-width: 1200px;
+  }
 }
 
 .row {
-  @media(min-width: 900px) {
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.75em;
+
+  @media(min-width: 1000px) {
     display: flex;
   }
 }

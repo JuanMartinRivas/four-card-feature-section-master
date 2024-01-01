@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/four-card-feature-section-i58d4iaikl)
 - Live Site URL: [Live](https://juanmartinrivas.github.io/four-card-feature-section-master/)
 
 ## My process
@@ -51,4 +51,4 @@ A pretty simple project to polish my ability to build responsive layouts
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on my [solution](). It definitely helps to find new ways to code and find easier solutions!
+A big thank you to anyone providing feedback on my [solution](https://www.frontendmentor.io/solutions/four-card-feature-section-i58d4iaikl). It definitely helps to find new ways to code and find easier solutions!
